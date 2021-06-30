@@ -13,6 +13,12 @@
 npm install 
 npm run watch 
 ```
+for photo content public/storage  to storage/app/public/
+``` 
+first delete the storage  folder from public
+php aritsan storage:link
+```
 ```
 php artisan serve
 ```
+
