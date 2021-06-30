@@ -25,3 +25,8 @@ php aritsan storage:link
 php artisan serve
 ```
 
+deployment stuff 
+https://stackoverflow.com/questions/45552264/images-in-app-public-laravel-not-show-in-heroku-app
+```
+"post-install-cmd": [ "ln -sr storage/app/public public/storage" ]"
+   ```
