@@ -1,0 +1,54 @@
+
+
+.container{
+  padding-top: 2rem;
+  max-width: 800px;
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+ ::placeholder {
+  font-size: 1rem;
+  text-align: center;
+}
+  label{
+    font-size: 2rem;
+    font-family: Inconsolata;
+   align-self: center;
+  }
+
+  .form-control{
+    border-radius: 2rem;
+
+  }
+  #heading{
+    text-align: center ;
+     font-family:Inconsolata ;
+    font-size: 3rem;
+    width: 100%;
+   
+    overflow: hidden;
+  }
+  #heading:hover{
+    width: 100%;
+  }
+
+.btn{
+   margin-top: 1rem;
+   width: 20vw;
+    border-radius: 2rem;
+   font-family: Inconsolata;
+font-weight:700;
+
+color: blue;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,248,230,1) 0%, rgba(255,178,0,1) 100%);
+box-shadow: 9px 7px 24px -4px rgba(0,0,0,0.52);
+-webkit-box-shadow: 9px 7px 24px -4px rgba(0,0,0,0.52);
+-moz-box-shadow: 9px 7px 24px -4px rgba(0,0,0,0.52);
+}
+</style>
+
