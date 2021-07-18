@@ -52,7 +52,7 @@ flex-direction: column ;
   justify-content: space-evenly;
   align-items: center;
              background: rgba(0, 0, 0, 0.5 );
-  
+
   }
   .allphotos:hover  .btn-group{
     bottom: 1rem;
@@ -90,6 +90,10 @@ flex-direction: column ;
     font-size: 3rem;
     width: 100%;
 
+  }
+  .btn{
+    border-radius: 2rem;
+    
   }
   
 </style>
