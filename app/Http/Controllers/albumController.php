@@ -29,7 +29,7 @@ $this->validate( $request ,[
 $filename=$request->file('cover_image')->getClientoriginalName();
 $file= pathinfo($filename. PATHINFO_FILENAME);
 $extension =$request->file('cover_image')->getClientoriginalExtension();
-$filenamefinal=$filename .'_'.time().'.'.$extension;
+$filenamefinal=$filename;
 $path=$request->file('cover_image')->storeAs('public/album_cover',$filenamefinal);
 
  $al= new album();  

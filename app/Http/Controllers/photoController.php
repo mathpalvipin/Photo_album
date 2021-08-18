@@ -22,7 +22,7 @@ $this->validate( $request ,[
 $filename=$request->file('photo')->getClientoriginalName();
 $file= pathinfo($filename. PATHINFO_FILENAME);
 $extension =$request->file('photo')->getClientoriginalExtension();
-$filenamefinal=$filename .'_'.time().'.'.$extension;
+$filenamefinal=$filename;
 $path=$request->file('photo')->storeAs('public/album/'.$request->input('album_id'),$filenamefinal);
 
  $ph= new photo(); 
