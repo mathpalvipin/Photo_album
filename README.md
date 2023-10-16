@@ -1,3 +1,8 @@
+if php version changed. You can create new laravel project and copy paste hte composer file here. then run below cmd.
+ bash
+ ```
+ composer update
+ ```
  bash
  ```
  composer install
